@@ -13,7 +13,7 @@ export default function TransactionHistory({ items }) {
         </tr>
       </thead>
 
-      <tbody className={css.AnyTransaction}>
+      <tbody className={css.anyTransaction}>
         {items.map(item => (
           <AnyTransaction
             key={item.id}

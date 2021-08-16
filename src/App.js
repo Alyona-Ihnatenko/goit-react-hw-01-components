@@ -18,10 +18,10 @@ export default function App() {
         avatar={user.avatar}
         stats={user.stats}
       />
-      <Statistics title="Upload stats" stats={StatisticalData} />;
-      <Statistics stats={StatisticalData} />;
-      <FriendList friends={friends} />;
-      <TransactionHistory items={transactions} />;
+      <Statistics title="Upload stats" stats={StatisticalData} />
+      <Statistics stats={StatisticalData} />
+      <FriendList friends={friends} />
+      <TransactionHistory items={transactions} />
     </div>
   );
 }

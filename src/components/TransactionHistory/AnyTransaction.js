@@ -12,6 +12,6 @@ export default function AnyTransaction({ type, amount, currency }) {
 
 AnyTransaction.propTypes = {
   type: PropTypes.string,
-  amount: PropTypes.number,
+  amount: PropTypes.string,
   currency: PropTypes.string,
 };
