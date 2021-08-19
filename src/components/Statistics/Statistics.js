@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import css from '../Statistics/Statistics.module.css';
-import StatisticalList from './StatisticalList';
+import StatisticalItem from './StatisticalItem';
 // import StatisticalData from './statistical-data.json';
 export default function Statistics({ title, stats }) {
   return (
@@ -9,7 +9,7 @@ export default function Statistics({ title, stats }) {
 
       <ul className={css.statList}>
         {stats.map(stat => (
-          <StatisticalList
+          <StatisticalItem
             key={stat.id}
             label={stat.label}
             percentage={stat.percentage}
